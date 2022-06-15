@@ -1,0 +1,15 @@
+{
+  "name": "test_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.14.43",
+    "esbuild-serve": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node esbuild.config.js -w",
+    "build": "node esbuild.config.js"
+  }
+}
